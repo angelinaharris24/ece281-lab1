@@ -74,9 +74,9 @@ begin
 	-- CONCURRENT STATEMENTS---------------------------------------
 	
 	--enter your logic here to implement the mux.  See VHDL reference sheet for MUX syntax.
-	w_sel (0) <= i_B ;
+	w_sel (2) <= i_B ;
     w_sel (1) <= i_C ;
-    w_sel (2) <= i_D ;
+    w_sel (0) <= i_D ;
     
 	with w_sel select
 	o_Y <= i_A when "000",
@@ -87,6 +87,6 @@ begin
 	       '1' when "101",
 	       '0' when "110",
 	       '1' when "111",
-	       '0' when others;
+	       'X' when others;
 	---------------------------------------------------------------	
 end thirtyOneDayMonth_arch;
