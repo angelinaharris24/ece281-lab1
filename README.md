@@ -44,4 +44,5 @@ If any of the `assert` statements fail **with** `severity failure` then GHDL wil
 Assert statements of other severity levels will be reported, but not fail the workflow.
 
 
-**** IC SCHEMATIC AND DOCUMENTATION STATEMENT: https://docs.google.com/document/d/1QTwvUEcAkHVGICD4HjmYVdbXk-37npg-cTCQ7Cv94EQ/edit?usp=sharing 
+IC SCHEMATIC, 2 DEMO VIDEOS, AND DOC STATEMENT: https://docs.google.com/document/d/1QTwvUEcAkHVGICD4HjmYVdbXk-37npg-cTCQ7Cv94EQ/edit?usp=sharing 
+
